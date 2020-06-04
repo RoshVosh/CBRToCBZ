@@ -13,5 +13,5 @@ zip -r "$DIR".cbz "$DIR";
 rm -r "$DIR";
 # Remove or comment out this line if you want to keep cbr files
 # rm "$FILE";
-echo Conversion of $FILE successful!
+echo Conversion of $FILE successful! > CBR2CBZ_Conversion.log
 done
